@@ -671,3 +671,9 @@ main section {
     top: 61rem !important;
   }
 }
+
+@media (max-width: 378px) {
+  .skill:target .skill__sub-menu {
+    top: 55rem !important;
+  }
+}
