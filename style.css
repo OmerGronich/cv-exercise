@@ -167,6 +167,10 @@ h1,
   flex-direction: column;
 }
 
+.social-links span {
+  font-size: inherit;
+}
+
 .social-links h2 {
   text-align: left;
 }
@@ -630,8 +634,17 @@ main section {
 }
 
 @media (max-width: 595px) {
+  body {
+    padding: 1.5rem 1.5rem !important;
+    font-size: 1.4rem !important;
+  }
+
+  .mobile-grid {
+    margin-bottom: 2rem;
+  }
+
   .skill:target .skill__sub-menu {
-    top: 57rem !important;
+    top: 51rem !important;
   }
 
   .skill:target .skill__name {
@@ -647,14 +660,14 @@ main section {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 450px) {
   .skill:target .skill__sub-menu {
-    top: 61rem !important;
+    top: 56rem !important;
   }
 }
 
-@media (max-width: 432px) {
+@media (max-width: 400px) {
   .skill:target .skill__sub-menu {
-    top: 64rem !important;
+    top: 61rem !important;
   }
 }
