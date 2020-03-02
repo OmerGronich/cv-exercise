@@ -1,0 +1,1 @@
+A Netcraft Academy exercise - build a cv page for yourself using flexbox based on a layout made by the teacher. I experimented with a pure CSS accordion menu and a popup menu for smaller screens, tried to make it fluid and responsive. 
